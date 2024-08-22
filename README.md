@@ -1,8 +1,19 @@
+
 # demo-mfe
-# Demo application about single-spa framework using micro-frontend architecture
-- To lauch the app, navigate to each of the component project folder and run ```npm start``` in the terminal, for example:
+
+### This is a demo application about micro-frontend architecture using *Single-SPA* framework
+
+- To lauch the app, you will have to install each of the component packages independently, for example using npm:
+
 ``` terminal
 cd about
+npm install
 npm start
 ```
-***Note that you will need to ```npm start``` the root-config project as the final one to make sure all the component is built and served successfully.
+
+---
+**NOTE**
+
+- You will need to built the root-config project as the final one to make sure all the previous component is built and served successfully.
+
+---
